@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Угадай кто это</title>
+    <title>Guess Who?</title>
     <link rel="stylesheet" href="./css/app.css" />
   </head>
   <body>
     <div class="quiz-container">
-      <h1>Угадай, кто это?</h1>
+      <h1>Guess Who?</h1>
       <img
         src="actor-placeholder.jpg"
-        alt="Актер"
+        alt="Actor"
         id="actor-image"
         class="actor-image"
       />
 
       <div class="question">
-        <p>Кто изображен на фотографии?</p>
+        <p>Who is in the photo?</p>
         <form id="quiz-form">
           <label>
             <input type="radio" name="actor" value="option1" />
@@ -31,7 +31,7 @@
             <input type="radio" name="actor" value="option3" />
             <span id="option3"></span> </label
           ><br />
-          <button type="button" onclick="checkAnswer()">Ответить</button>
+          <button type="button" onclick="checkAnswer()">Submit</button>
         </form>
       </div>
 
