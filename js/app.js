@@ -51,7 +51,7 @@ const actors = [
   },
   {
     name: "Alan",
-    image: "https://b1.filmpro.ru/c/143690.700xp.jpg",
+    image: "https://banana.by/uploads/posts/2012-10/1351683526_23.jpeg",
     options: ["Tony", "Alan", "George Clooney"],
     correct: "Alan",
   },
